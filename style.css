@@ -2,7 +2,7 @@
 
 @font-face {
 	font-family:"Outreque";
-	src: url(Fonts/OutrequeRegular.ttf) format("Truetype");
+	src: url(fonts/OutrequeRegular.ttf) format("truetype");
 }
 
     body{
