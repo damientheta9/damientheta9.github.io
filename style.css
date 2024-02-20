@@ -3,7 +3,7 @@
 
     body{
         background-color: black;
-        font-family:'Outreque regular';
+        font-family:'Outreque';
         margin:0px 0px 0px 0px;
         color: white;
         font-size: 14pt;
@@ -61,7 +61,9 @@
         border-radius: 2px;
         margin:auto;
         display: inline;
-        line-height: 20pt;
+        line-height: 24pt;
+        text-wrap: nowrap;
+
 
     }
 
@@ -93,7 +95,10 @@
     }
 
 
-
+    .date{
+        font-family: "Outreque Light";
+        font-size: smaller;
+    }
 
 
     .article-flex-deux{
@@ -138,10 +143,9 @@ footer{
 
 
 .title{
-    margin: 80px 10px -20px 10px;
+    margin: 200px 10px -20px 10px;
     text-align: left;
 }
-
 
 
 
@@ -163,14 +167,14 @@ footer{
 
 .qui{
     text-align: center;
-    margin: 140px auto 120px auto;
-    width: 320px;
+    margin: 100px auto 200px auto;
+    width: 500px;
 
 }
 
 
 h1{
-    font-family:"Outreque";
+    font-family: "outreque";
     font-size: 30pt;
     letter-spacing: 1pt;
 
@@ -182,6 +186,45 @@ iframe{
     padding-bottom: 75%;
     width: 100%;
 }
+
+
+
+
+
+.studio{
+    background-color: black;
+    text-align: left;
+}
+
+#namestudio{
+    font-size: 6pt;
+    line-height: 6pt;
+    color: black;
+
+}
+
+
+#myname{
+    font-weight: lighter;
+    font-size: 25px;
+
+
+}
+
+
+h2{
+    font-family:"Outreque regular";
+    font-weight: lighter;
+    font-size: 6pt;
+    line-height: 6pt;
+    color: black;
+
+}
+
+
+
+
+
 
 
 
@@ -205,6 +248,7 @@ margin: 10px 0px 15px 0px;
 display: inherit;
 text-align: center;
 width: inherit;
+
     }
 
     header{
@@ -223,6 +267,7 @@ width: inherit;
     }
 
 
+
     .info{
         text-align: center;
         margin-bottom: 30px;
@@ -230,8 +275,8 @@ width: inherit;
 
     .qui{
         text-align: center;
-        margin-top: 20px;
-        margin-bottom: 0px;
+        margin-top: 60px;
+        margin-bottom: 60px;
         
     }
 
@@ -247,7 +292,7 @@ h1{
 
 
 @font-face {
-	font-family: 'Outreque regular';
-	src: url(Fonts/OutrequeRegular.ttf);
+	font-family: 'Outreque';
+	src: url(Fonts/OutrequeRegular.ttf) format('truetype');
 }
 
