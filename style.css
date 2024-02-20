@@ -3,7 +3,7 @@
 
     body{
         background-color: black;
-        font-family:'Outreque';
+        font-family:'Outreque regular';
         margin:0px 0px 0px 0px;
         color: white;
         font-size: 14pt;
@@ -247,7 +247,7 @@ h1{
 
 
 @font-face {
-	font-family: 'Outreque';
+	font-family: 'Outreque regular';
 	src: url(Fonts/OutrequeRegular.ttf);
 }
 
