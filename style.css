@@ -1,5 +1,9 @@
 
 
+@font-face {
+	font-family: 'Outreque';
+	src: url(Fonts/OutrequeRegular.ttf) format('truetype');
+}
 
     body{
         background-color: black;
