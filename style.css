@@ -3,7 +3,7 @@
 
     body{
         background-color: black;
-        font-family:'Courier New', Courier, monospace;
+        font-family:'Outreque';
         margin:0px 0px 0px 0px;
         color: white;
         font-size: 14pt;
@@ -170,7 +170,7 @@ footer{
 
 
 h1{
-    font-family:"Scotch";
+    font-family:"Outreque Bold";
     font-size: 30pt;
     letter-spacing: 1pt;
 
