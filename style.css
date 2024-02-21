@@ -3,6 +3,7 @@
 @font-face {
 	font-family:"Outreque";
 	src: url(fonts/OutrequeRegular.ttf) format("truetype");
+    src: url(fonts/OutrequeLight.ttf) format("truetype");
 }
 
     body{
@@ -10,7 +11,7 @@
         font-family:'Outreque';
         margin:0px 0px 0px 0px;
         color: white;
-        font-size: 14pt;
+        font-size: 16pt;
     }
 
     .palm{
@@ -147,7 +148,7 @@ footer{
 
 
 .title{
-    margin: 200px 10px -20px 10px;
+    margin: 140px 10px -20px 10px;
     text-align: left;
 }
 
@@ -159,6 +160,9 @@ footer{
     margin: 0px 10px 40px 10px;
     max-width: 70%;
     text-align: left;
+    font-size: 15pt;
+    font-family: "Outreque Light";
+
 }
 
 
@@ -263,11 +267,13 @@ width: inherit;
         margin: 0px 10px 40px 10px;
         max-width: inherit;
         text-align: center;
+        font-size: 16px;
     }
 
     .title{
         text-align: center;
         margin-bottom: -5px;
+        margin-top: 80px;
     }
 
 
@@ -287,9 +293,11 @@ width: inherit;
     .article-flex-deux{
         margin-top: 20px;
     }
-h1{
+
+
+    h1{
     font-size: 27pt;
-}
+    }
 
 }
 
