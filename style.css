@@ -38,7 +38,7 @@
         position: absolute;
         position:fixed;
         margin-left: 20px;
-        margin-top: -46px;
+        margin-top: -55px;
     }
 
 
@@ -77,7 +77,7 @@
     .conteneur-flex{
         display: flex;
         flex-wrap: wrap;
-        margin: 5px 5px 5px 5px;
+        margin: 45px 5px 5px 5px;
     }
   
     .article-flex{
@@ -208,7 +208,10 @@ iframe{
 #namestudio{
     font-size: 6pt;
     line-height: 6pt;
-    color: black;
+    text-align: right;
+    color: white;
+    margin-bottom: -5px;
+    
 
 }
 
@@ -300,12 +303,14 @@ width: inherit;
     font-size: 27pt;
     }
 
+    #namestudio{
+        font-size: 4pt;
+    line-height: 4pt;
+        text-align: center;
+            
+    }
+
 }
 
 
-
-@font-face {
-	font-family: 'Outreque';
-	src: url(Fonts/OutrequeRegular.ttf) format('truetype');
-}
 
