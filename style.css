@@ -4,20 +4,16 @@
 	font-family:"Outreque";
 	src: url(fonts/OutrequeRegular.ttf) format("truetype");
     src: url(fonts/OutrequeLight.ttf) format("truetype");
+    src: url(fonts/OutrequeMedium.ttf) format("truetype");
 }
 
     body{
         background-color: black;
-        font-family:'Outreque';
+        font-family:'Outreque Regular';
         margin:0px 0px 0px 0px;
         color: white;
         font-size: 16pt;
     }
-
-    .palm{
-        cursor: url("images/cursor_palm2.png"), pointer;
-    }
-
 
 
 
@@ -77,12 +73,12 @@
     .conteneur-flex{
         display: flex;
         flex-wrap: wrap;
-        margin: 45px 5px 5px 5px;
+        margin: 50px 5px 5px 5px;
     }
   
     .article-flex{
         margin: 5px 5px 5px 5px;
-        flex: 1 1 300px;
+        flex: 1 1 400px;
         transition-duration: 1s;
     }
 
@@ -207,6 +203,7 @@ iframe{
 }
 
 #namestudio{
+    font-family: "Outreque Light";
     font-size: 6pt;
     line-height: 6pt;
     text-align: right;
