@@ -75,6 +75,7 @@
         text-align: center;
         position: fixed;
         color: #eee6d7;
+        top: 0;
       }
 
 
@@ -229,8 +230,6 @@ a:active{
 }
 
 
-
-
 footer{
     text-align: center;
     background-color: black;
@@ -239,7 +238,6 @@ footer{
     font-size: 14pt;
     margin: 40px 0px 0px 0px;
     padding: 30px 0px 30px 0px;
-
 }
 
 
@@ -255,6 +253,7 @@ footer{
     line-height: 20pt;
 }
 
+
 .return:hover{
     background-color: yellow;
     color: black;
@@ -268,9 +267,6 @@ footer{
     text-transform: uppercase;
     line-height: 75pt;
 }
-
-
-
 
 
 .description-projet{
@@ -308,6 +304,13 @@ footer{
     padding-bottom: 80px;
 }
 
+#studiotheta{
+    margin-top: 55px;
+    line-height: 140px;
+    font-family: "Outreque Bold";
+    font-size: 130pt;
+    text-align: center;
+}
 
 
 h1{
@@ -381,7 +384,7 @@ header{
         margin: 0px 0px 0px 0px;
         padding: 10px;
         width: 100%;
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .signature{
@@ -403,8 +406,9 @@ header{
 
     .title{
         text-align: center;
-        margin: 10px 10px 10px 10px;
+        margin: 40px 10px 10px 10px;
         line-height: 26pt;
+        
     }
 
 
@@ -434,7 +438,7 @@ header{
         font-size: 5pt;
         line-height: 5pt;
         text-align: center;
-        margin: -15px 15px 0px 15px;    
+        margin: 0px 15px 0px 15px;    
 
     }
 
@@ -444,11 +448,11 @@ header{
 
 
     .return{
-        top :45px;
-        right: 20px;
-        font-size: 30pt;
+        top :15px;
+        right: 15px;
+        font-size: 26pt;
         padding: 2px 2px 0px 2px;
-        line-height: 13pt;
+        line-height: 11pt;
     }
 
     .signature-footer{
@@ -469,6 +473,16 @@ header{
         width: auto;
         height: 200px;
     }
+
+    #studiotheta{
+        margin-top: 45px;
+        line-height: 70px;
+        font-size: 60pt;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
 }
 
 
