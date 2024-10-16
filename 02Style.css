@@ -49,7 +49,6 @@
 
 
     body{
-        animation: fadeIn 1s;
         background-color: #eee6d7;
         font-family:'Outreque Medium';
         margin:0px 0px 0px 0px;
@@ -292,6 +291,7 @@ footer{
     margin: 100px auto 200px auto;
     width: 500px;
     font-size: 12pt;
+    animation: fadeIn 2s;
    }
 
 .contact{
@@ -302,6 +302,7 @@ footer{
     text-transform: uppercase;
     padding-top: 10px;
     padding-bottom: 80px;
+    animation: fadeIn 2s;
 }
 
 #studiotheta{
@@ -358,6 +359,7 @@ h2{
     margin-right: auto;
     margin-left: auto;
     display: flex;
+    animation: fadeIn 2s;
 }
 
 
@@ -418,6 +420,10 @@ header{
         font-size: 9pt;
     }
 
+    ul{
+        border: 1px dashed black;
+    }
+
     .qui{
         text-align: center;
         margin-top: 60px;
@@ -475,7 +481,7 @@ header{
     }
 
     #studiotheta{
-        margin-top: 45px;
+        margin-top: 41px;
         line-height: 70px;
         font-size: 60pt;
         margin-left: 0;
