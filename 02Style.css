@@ -55,28 +55,38 @@
         color: black;
         font-size: 16pt;
         cursor: url("images/Cursor_Yelow02.svg") 11 11, auto;
+
     }
 
 
-
     header{
-        background-color: #ede7dd;
-        border-bottom: 2px solid black;
+        background-color:#ede7dd;
+        border-bottom: 3px solid black;
+        padding-bottom: 8px;
     }
 
 
     .menu{
-        background-color: black;
+        background-color:yellow;
         padding-bottom: 5px;
         padding-top: 5px;
         font-size: 16pt;
         width: 100%;
         text-align: center;
         position: fixed;
-        color: #ede7dd;
+        color: black;
         top: 0;
+        border-bottom: 3px solid black;
       }
 
+      #studiotheta{
+    padding-top: 62px;
+    margin:0;
+    line-height: 140px;
+    font-family: "Outreque Bold";
+    font-size: 130pt;
+    text-align: center;
+}
 
     .signature{
     padding-top: 30px;
@@ -98,6 +108,7 @@
         font-family: "Outreque Light";
         font-size: 10pt;
         color:black;
+        
     }
     
 
@@ -106,14 +117,15 @@
         padding: 3px 40px 3px 40px;
         margin: auto 5px auto 5px;
         display: inline;
-        font-family:'Outreque Medium';
+        font-family:'Outreque bold';
         text-transform: uppercase;
-        
+        border-left: 3px solid black;
+        border-right: 3px solid black;
     }
 
     li:hover{
-        background-color: #ede7dd;
-        color: black;
+        text-decoration: overline;
+        text-decoration-color: black;
     }
 
 
@@ -125,7 +137,7 @@
         border-radius: 2px;
         margin:auto;
         display: inline;
-        line-height: 24pt;
+        line-height: 18pt;
         text-wrap: nowrap;
         font-size: 14px;
         text-transform: uppercase;
@@ -155,7 +167,6 @@
         text-decoration: underline;        
         background-color: black;
         color: #ede7dd;
-
     }
 
     .article-flex-empty{
@@ -203,8 +214,8 @@
 
             .article-flex-box{
                 animation: fadeIn 2s;
-                margin-bottom: 10px;
                 background-color: yellow;
+                margin-bottom: 5px;
                 padding: 10px 10px 10px 10px;
                 font-size: 12pt;
                 text-align: center;
@@ -216,7 +227,7 @@
                 background-color: black;
                 color: #ede7dd;
                 text-decoration: underline;
-                border-bottom: 2px solid #ede7dd;
+ 
             }
 
 a{
@@ -224,10 +235,13 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    cursor: url("images/Cursor_Yelow02.svg") 11 11, auto;
+}
+
 a:active{
     color: blueviolet;
 }
-
 
 footer{
     text-align: center;
@@ -265,6 +279,9 @@ footer{
     text-align: center;
     text-transform: uppercase;
     line-height: 75pt;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: yellow;
 }
 
 
@@ -280,7 +297,7 @@ footer{
 
 .info{
     animation: fadeIn 2s;
-    margin: 0px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
     text-align: center;
 }
 
@@ -305,13 +322,7 @@ footer{
     animation: fadeIn 2s;
 }
 
-#studiotheta{
-    margin-top: 55px;
-    line-height: 140px;
-    font-family: "Outreque Bold";
-    font-size: 130pt;
-    text-align: center;
-}
+
 
 
 h1{
@@ -378,15 +389,16 @@ h2{
 @media (min-width: 200px) and (max-width: 646px){
     
 header{
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
     .menu{
         top:0;
         margin: 0px 0px 0px 0px;
-        padding: 10px;
+        padding: 8px 5px 8px 5px;
         width: 100%;
         font-size: 12pt;
+        border-bottom: 2px solid black;
     }
 
     .signature{
@@ -408,20 +420,20 @@ header{
 
     .title{
         text-align: center;
-        margin: 40px 10px 10px 10px;
-        line-height: 26pt;
+        margin: 35px 10px 10px 10px;
+        line-height: 30pt;
         
     }
 
 
     .info{
         text-align: center;
-        margin-bottom: 30px;
-        font-size: 9pt;
+        margin: 15px 20px 0px 20px;
     }
 
     ul{
         border: 1px dashed black;
+        font-size: 8pt;
     }
 
     .qui{
@@ -436,7 +448,7 @@ header{
 
 
     h1{
-    font-size: 35pt;
+    font-size: 39pt;
     }
 
     #namestudio{
@@ -444,17 +456,18 @@ header{
         line-height: 5pt;
         text-align: center;
         margin: 0px 15px 0px 15px;    
-
     }
 
     li{
         padding: 3px 10px 3px 10px;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
     }
 
 
     .return{
-        top :15px;
-        right: 15px;
+        top :10px;
+        right: 10px;
         font-size: 26pt;
         padding: 2px 2px 0px 2px;
         line-height: 11pt;
@@ -480,7 +493,7 @@ header{
     }
 
     #studiotheta{
-        margin-top: 41px;
+        padding-top: 45px;
         line-height: 70px;
         font-size: 60pt;
         margin-left: 0;
