@@ -380,7 +380,10 @@ h2{
     margin: auto;
 }
 
-
+u{
+    text-decoration-color: yellow;
+    text-decoration-thickness: 3px;
+}
 
 
 
@@ -412,7 +415,7 @@ header{
 
 
     .description-projet{
-        margin: 0px 10px 40px 10px;
+        margin: 30px 10px 40px 10px;
         max-width: inherit;
         text-align: center;
         font-size: 14px;
@@ -438,7 +441,7 @@ header{
 
     .qui{
         text-align: center;
-        margin: 60px 10px 60px 10px;
+        margin: 30px 10px 30px 10px;
         
     }
 
@@ -498,6 +501,11 @@ header{
         font-size: 60pt;
         margin-left: 0;
         margin-right: 0;
+    }
+
+
+    u{
+        text-decoration-thickness: 2px;
     }
 
 
