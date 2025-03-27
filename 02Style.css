@@ -152,7 +152,7 @@
     }
   
     .article-flex{
-        animation: fadeIn 2s;
+        animation: fadeIn 1s;
         padding: 5px 5px 5px 5px;
         flex: 1 1 400px;
         transition-duration: 1s;
@@ -176,7 +176,7 @@
 
 
     .image-flex{
-        animation: fadeIn 2s;
+        animation: fadeIn 1s;
         margin: 5px 5px 5px 5px;
         flex: 1 1 500px;
         transition-duration: 1s;
@@ -213,7 +213,7 @@
 
 
             .article-flex-box{
-                animation: fadeIn 2s;
+                animation: fadeIn 1s;
                 background-color: yellow;
                 margin-bottom: 5px;
                 padding: 10px 10px 10px 10px;
@@ -305,7 +305,7 @@ footer{
 
 .qui{
     text-align: center;
-    margin: 100px auto 200px auto;
+    margin: 50px auto 50px auto;
     width: 500px;
     font-size: 12pt;
     animation: fadeIn 2s;
@@ -330,6 +330,7 @@ h1{
     font-size: 90pt;
     margin: 0;
 }
+
 
 
 
@@ -453,6 +454,8 @@ header{
     h1{
     font-size: 39pt;
     }
+
+
 
     #namestudio{
         font-size: 5pt;
